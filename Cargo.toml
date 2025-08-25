@@ -1,0 +1,12 @@
+[package]
+name = "rust-tokio-lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+hyper = { version = "1", features = ["full"] }
+bytes = "1"
+http-body-util = "0.1"
+tokio-util = { version = "0.7", features = ["compat"] }
+pin-project-lite = "0.2"
